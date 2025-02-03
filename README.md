@@ -23,5 +23,5 @@ Each cell in the grid follows these simple rules:
 
 These simple rules create **complex structures** like pulsars, spaceships, and gliders.
 
-![Toom](https://github.com/gbr-pinna/Cellular-Automata/Toom.gif)
-![Pulsar](https://github.com/gbr-pinna/Cellular-Automata/Pulsar.gif)
+![Toom](https://github.com/gbr-pinna/Cellular-Automata/blob/main/Toom.gif)
+![Pulsar](https://github.com/gbr-pinna/Cellular-Automata/blob/main/Pulsar.gif)

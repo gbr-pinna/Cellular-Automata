@@ -15,12 +15,9 @@ Both simulations run on a square lattice, where each cell updates based on speci
 ### 1. **Toom’s Rule**
 Toom’s Rule follows an update function where each cell is determined by the **majority** value of itself, the **top neighbor**, and the **left neighbor**:
 
-\[
+$$
 s_{i,j}^{t+1} = \text{majority}(s_{i-1,j}, s_{i,j}, s_{i,j-1})
-\]
-
-- Used in **fault-tolerant computing** due to its **error-correcting properties**.
-- Robust against **random noise** in computations.
+$$
 
 ### 2. **Conway’s Game of Life**
 Each cell in the grid follows these simple rules:

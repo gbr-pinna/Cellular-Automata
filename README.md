@@ -15,7 +15,7 @@ Both simulations run on a square lattice, where each cell updates based on speci
 ### 1. **Toom’s Rule**
 Toom’s Rule follows an update function where each cell is determined by the **majority** value of itself, the **top neighbor**, and the **left neighbor**.
 
-This automata is a zero eroder meaning that in a finite time finite island of zeros (white) will be eroded in favours of ones (black)
+This automata is a zero eroder meaning that in a finite time finite island of zeros (white) will be eroded in favours of ones (black) or viceversa.
 
 ![Toom](https://github.com/gbr-pinna/Cellular-Automata/blob/main/Toom.gif)
 

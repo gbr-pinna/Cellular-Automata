@@ -13,7 +13,11 @@ Both simulations run on a square lattice, where each cell updates based on speci
 ## How It Works
 
 ### 1. **Toom’s Rule**
-Toom’s Rule follows an update function where each cell is determined by the **majority** value of itself, the **top neighbor**, and the **left neighbor**:
+Toom’s Rule follows an update function where each cell is determined by the **majority** value of itself, the **top neighbor**, and the **left neighbor**.
+
+This automata is a zero eroder meaning that in a finite time finite island of zeros (white) will be eroded in favours of ones (black)
+
+![Toom](https://github.com/gbr-pinna/Cellular-Automata/blob/main/Toom.gif)
 
 ### 2. **Conway’s Game of Life**
 Each cell in the grid follows these simple rules:
@@ -21,7 +25,6 @@ Each cell in the grid follows these simple rules:
 - **Death**: A live cell with **<2 (underpopulation)** or **>3 (overpopulation)** neighbors dies.
 - **Birth**: A dead cell with exactly **3 neighbors** becomes alive.
 
-These simple rules create **complex structures** like pulsars, spaceships, and gliders.
+These simple rules create **complex structures** like pulsars, spaceships, and gliders. Below is an example of a pulsar.
 
-![Toom](https://github.com/gbr-pinna/Cellular-Automata/blob/main/Toom.gif)
 ![Pulsar](https://github.com/gbr-pinna/Cellular-Automata/blob/main/Pulsar.gif)

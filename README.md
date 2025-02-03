@@ -22,3 +22,6 @@ Each cell in the grid follows these simple rules:
 - **Birth**: A dead cell with exactly **3 neighbors** becomes alive.
 
 These simple rules create **complex structures** like pulsars, spaceships, and gliders.
+
+![Toom](https://github.com/gbr-pinna/Cellular-Automata/Toom.gif)
+![Pulsar](https://github.com/gbr-pinna/Cellular-Automata/Pulsar.gif)
